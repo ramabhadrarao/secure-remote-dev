@@ -1,0 +1,115 @@
+version: "3.9"
+
+services:
+  # =============================
+  # Reverse Proxy (Nginx)
+  # =============================
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: proxy
+    depends_on:
+      - guacamole
+      - gitea
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/html:/usr/share/nginx/html:ro
+      - ./nginx/logs:/var/log/nginx
+    restart: unless-stopped
+
+  # =============================
+  # Guacamole + guacd + Postgres
+  # =============================
+  guacd:
+    image: guacamole/guacd:1.5.5
+    container_name: guacd
+    restart: unless-stopped
+
+  guacdb:
+    image: postgres:16-alpine
+    container_name: guacdb
+    environment:
+      POSTGRES_USER: guacamole_user
+      POSTGRES_PASSWORD: ${GUAC_POSTGRES_PASSWORD}
+      POSTGRES_DB: guacamole_db
+    volumes:
+      - ./guacamole/db-data:/var/lib/postgresql/data
+      - ./guacamole/initdb:/docker-entrypoint-initdb.d:ro
+    restart: unless-stopped
+
+  guacamole:
+    image: guacamole/guacamole:1.5.5
+    container_name: guacamole
+    depends_on:
+      - guacd
+      - guacdb
+    environment:
+      GUACD_HOSTNAME: guacd
+      POSTGRES_HOSTNAME: guacdb
+      POSTGRES_PORT: 5432
+      POSTGRES_DATABASE: guacamole_db
+      POSTGRES_USER: guacamole_user
+      POSTGRES_PASSWORD: ${GUAC_POSTGRES_PASSWORD}
+    restart: unless-stopped
+
+  # =============================
+  # Devbox (XFCE + XRDP + Node + Python + VS Code OSS)
+  # =============================
+  devbox:
+    build:
+      context: ./devbox
+      dockerfile: Dockerfile
+    container_name: devbox
+    environment:
+      - USERNAME=${DEVBOX_RDP_USER}
+      - USERPASS=${DEVBOX_RDP_PASSWORD}
+    volumes:
+      - devbox-home:/home/${DEVBOX_RDP_USER}
+    expose:
+      - "3389"
+    restart: unless-stopped
+
+  # =============================
+  # Gitea + Postgres
+  # =============================
+  gitea-db:
+    image: postgres:16-alpine
+    container_name: gitea-db
+    environment:
+      POSTGRES_USER: gitea
+      POSTGRES_PASSWORD: ${GITEA_POSTGRES_PASSWORD}
+      POSTGRES_DB: gitea
+    volumes:
+      - ./gitea/db-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  gitea:
+    image: gitea/gitea:1.22.3-rootless
+    container_name: gitea
+    depends_on:
+      - gitea-db
+    environment:
+      USER_UID: 1000
+      USER_GID: 1000
+      GITEA__database__DB_TYPE: postgres
+      GITEA__database__HOST: gitea-db:5432
+      GITEA__database__NAME: gitea
+      GITEA__database__USER: gitea
+      GITEA__database__PASSWD: ${GITEA_POSTGRES_PASSWORD}
+      GITEA__server__DOMAIN: git.${DOMAIN}
+      GITEA__server__ROOT_URL: https://git.${DOMAIN}/
+      GITEA__server__DISABLE_SSH: true
+      GITEA__server__PROTOCOL: http
+    volumes:
+      - ./gitea/data:/var/lib/gitea
+      - ./gitea/config:/etc/gitea
+    expose:
+      - "3000"
+    restart: unless-stopped
+
+volumes:
+  devbox-home:

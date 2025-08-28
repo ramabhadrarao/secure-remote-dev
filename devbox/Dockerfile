@@ -64,11 +64,57 @@ RUN chmod +x /home/${USERNAME}/xfce-config.sh \
     && chmod +x /home/${USERNAME}/setup-vscode.sh \
     && chmod +x /usr/local/bin/docker-entrypoint.sh
 
+# Create Chrome launcher script
+RUN cat > /usr/local/bin/start-chrome << 'EOF'
+#!/bin/bash
+export DISPLAY=${DISPLAY:-:10.0}
+exec /usr/bin/google-chrome-stable \
+    --no-sandbox \
+    --disable-dev-shm-usage \
+    --disable-gpu \
+    --disable-software-rasterizer \
+    --allow-file-access-from-files \
+    "$@"
+EOF
+RUN chmod +x /usr/local/bin/start-chrome
+
+# Create desktop shortcuts
+RUN mkdir -p /home/${USERNAME}/Desktop && \
+    cat > /home/${USERNAME}/Desktop/chrome.desktop << 'EOF'
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Google Chrome
+Exec=/usr/local/bin/start-chrome
+Icon=google-chrome
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+EOF
+RUN chmod +x /home/${USERNAME}/Desktop/chrome.desktop && \
+    chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}/Desktop
+
+# Create VS Code desktop shortcut
+RUN cat > /home/${USERNAME}/Desktop/vscode.desktop << 'EOF'
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Visual Studio Code
+Exec=/usr/bin/code --no-sandbox --disable-gpu-sandbox
+Icon=code
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true
+EOF
+RUN chmod +x /home/${USERNAME}/Desktop/vscode.desktop && \
+    chown ${USERNAME}:${USERNAME} /home/${USERNAME}/Desktop/vscode.desktop
+
 # Set up Chrome policies directory
 RUN mkdir -p /etc/opt/chrome/policies/managed \
     && mkdir -p /etc/opt/chrome/policies/recommended
 
-COPY chrome-policy.json /etc/opt/chrome/policies/managed/chrome-policy.json
+# Don't copy policy file during build - we'll add it at runtime
+# This avoids the read-only filesystem issue
 
 EXPOSE 3389
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]

@@ -1,0 +1,2 @@
+-- This file initializes the Guacamole database
+-- The schema files will be loaded by Guacamole container on first run

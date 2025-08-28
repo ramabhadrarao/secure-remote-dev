@@ -1,0 +1,21 @@
+{
+  "URLBlocklist": ["*"],
+  "URLAllowlist": [
+    "file:///*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*",
+    "https://claude.ai/*",
+    "https://google.com/*",
+    "https://www.google.com/*",
+    "https://github.com/*",
+    "https://stackoverflow.com/*",
+    "https://developer.mozilla.org/*",
+    "http://git.178.16.139.214/*",
+    "http://178.16.139.214/*",
+    "http://localhost:*/*",
+    "http://127.0.0.1:*/*"
+  ],
+  "HomepageLocation": "https://chatgpt.com",
+  "AllowFileAccessFromFiles": true,
+  "DeveloperToolsAvailability": 0
+}

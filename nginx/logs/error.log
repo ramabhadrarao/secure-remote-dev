@@ -1,0 +1,264 @@
+2025/08/28 13:30:05 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:05 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:05 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:30:06 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:06 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:06 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:11 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:17 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:17 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:17 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:23 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:23 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:23 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:29 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:29 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:29 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:38 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:38 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:38 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:30:49 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:30:49 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:30:49 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:31:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:31:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:31:07 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:31:38 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:31:38 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:31:38 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:32:35 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:32:35 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:32:35 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/site.conf:36
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:07 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:07 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:07 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:07 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:08 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:08 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:08 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:09 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:09 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:09 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:11 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:15 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:15 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:15 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:21 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:21 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:21 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:33:34 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:33:34 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:33:34 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:34:00 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:34:00 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:34:00 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:34:51 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:34:51 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:34:51 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:35:52 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:13
+2025/08/28 13:35:52 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/site.conf:29
+2025/08/28 13:35:52 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/certs/fullchain.pem, r) error:10000080:BIO routines::no such file)
+2025/08/28 13:36:43 [notice] 1#1: using the "epoll" event method
+2025/08/28 13:36:43 [notice] 1#1: nginx/1.27.5
+2025/08/28 13:36:43 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 13:36:43 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 13:36:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 13:36:43 [notice] 1#1: start worker processes
+2025/08/28 13:36:43 [notice] 1#1: start worker process 20
+2025/08/28 13:36:43 [notice] 1#1: start worker process 21
+2025/08/28 13:36:43 [notice] 1#1: start worker process 22
+2025/08/28 13:36:43 [notice] 1#1: start worker process 23
+2025/08/28 13:38:13 [warn] 20#20: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 49.37.135.160, server: 178.16.139.214, request: "GET /assets/js/index.js?v=1.22.3 HTTP/1.1", upstream: "http://172.18.0.7:3000/assets/js/index.js?v=1.22.3", host: "178.16.139.214"
+2025/08/28 13:39:37 [error] 20#20: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 49.37.135.160, server: 178.16.139.214, request: "GET /user/login HTTP/1.1", upstream: "http://172.18.0.7:3000/user/login", host: "178.16.139.214"
+2025/08/28 13:39:38 [error] 20#20: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 49.37.135.160, server: 178.16.139.214, request: "GET /user/login HTTP/1.1", upstream: "http://172.18.0.7:3000/user/login", host: "178.16.139.214"
+2025/08/28 13:39:39 [error] 20#20: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 49.37.135.160, server: 178.16.139.214, request: "GET /user/login HTTP/1.1", upstream: "http://172.18.0.7:3000/user/login", host: "178.16.139.214"
+2025/08/28 14:56:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 14:56:03 [notice] 20#20: gracefully shutting down
+2025/08/28 14:56:03 [notice] 23#23: gracefully shutting down
+2025/08/28 14:56:03 [notice] 23#23: exiting
+2025/08/28 14:56:03 [notice] 20#20: exiting
+2025/08/28 14:56:03 [notice] 23#23: exit
+2025/08/28 14:56:03 [notice] 20#20: exit
+2025/08/28 14:56:03 [notice] 21#21: gracefully shutting down
+2025/08/28 14:56:03 [notice] 22#22: gracefully shutting down
+2025/08/28 14:56:03 [notice] 21#21: exiting
+2025/08/28 14:56:03 [notice] 22#22: exiting
+2025/08/28 14:56:03 [notice] 21#21: exit
+2025/08/28 14:56:03 [notice] 22#22: exit
+2025/08/28 14:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/08/28 14:56:03 [notice] 1#1: worker process 20 exited with code 0
+2025/08/28 14:56:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 14:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/28 14:56:03 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 14:56:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 14:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 14:56:03 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 14:56:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 14:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 14:56:03 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 14:56:03 [notice] 1#1: exit
+2025/08/28 14:56:23 [notice] 1#1: using the "epoll" event method
+2025/08/28 14:56:23 [notice] 1#1: nginx/1.27.5
+2025/08/28 14:56:23 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 14:56:23 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 14:56:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 14:56:23 [notice] 1#1: start worker processes
+2025/08/28 14:56:23 [notice] 1#1: start worker process 20
+2025/08/28 14:56:23 [notice] 1#1: start worker process 21
+2025/08/28 14:56:23 [notice] 1#1: start worker process 22
+2025/08/28 14:56:23 [notice] 1#1: start worker process 23
+2025/08/28 15:39:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 15:39:06 [notice] 21#21: gracefully shutting down
+2025/08/28 15:39:06 [notice] 20#20: gracefully shutting down
+2025/08/28 15:39:06 [notice] 22#22: gracefully shutting down
+2025/08/28 15:39:06 [notice] 23#23: gracefully shutting down
+2025/08/28 15:39:06 [notice] 22#22: exiting
+2025/08/28 15:39:06 [notice] 23#23: exiting
+2025/08/28 15:39:06 [notice] 21#21: exiting
+2025/08/28 15:39:06 [notice] 22#22: exit
+2025/08/28 15:39:06 [notice] 23#23: exit
+2025/08/28 15:39:06 [notice] 21#21: exit
+2025/08/28 15:39:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 15:39:06 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 15:39:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:39:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 15:39:06 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 15:39:06 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 15:39:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:39:23 [notice] 1#1: using the "epoll" event method
+2025/08/28 15:39:23 [notice] 1#1: nginx/1.27.5
+2025/08/28 15:39:23 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 15:39:23 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 15:39:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 15:39:23 [notice] 1#1: start worker processes
+2025/08/28 15:39:23 [notice] 1#1: start worker process 20
+2025/08/28 15:39:23 [notice] 1#1: start worker process 21
+2025/08/28 15:39:23 [notice] 1#1: start worker process 22
+2025/08/28 15:39:23 [notice] 1#1: start worker process 23
+2025/08/28 15:43:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 15:43:24 [notice] 20#20: gracefully shutting down
+2025/08/28 15:43:24 [notice] 22#22: gracefully shutting down
+2025/08/28 15:43:24 [notice] 22#22: exiting
+2025/08/28 15:43:24 [notice] 22#22: exit
+2025/08/28 15:43:24 [notice] 21#21: gracefully shutting down
+2025/08/28 15:43:24 [notice] 21#21: exiting
+2025/08/28 15:43:24 [notice] 23#23: gracefully shutting down
+2025/08/28 15:43:24 [notice] 21#21: exit
+2025/08/28 15:43:24 [notice] 23#23: exiting
+2025/08/28 15:43:24 [notice] 23#23: exit
+2025/08/28 15:43:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/28 15:43:24 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 15:43:24 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:43:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 15:43:24 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 15:43:24 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 15:43:24 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:43:24 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 15:43:46 [notice] 1#1: using the "epoll" event method
+2025/08/28 15:43:46 [notice] 1#1: nginx/1.27.5
+2025/08/28 15:43:46 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 15:43:46 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 15:43:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 15:43:46 [notice] 1#1: start worker processes
+2025/08/28 15:43:46 [notice] 1#1: start worker process 20
+2025/08/28 15:43:46 [notice] 1#1: start worker process 21
+2025/08/28 15:43:46 [notice] 1#1: start worker process 22
+2025/08/28 15:43:46 [notice] 1#1: start worker process 23
+2025/08/28 15:48:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 15:48:36 [notice] 20#20: gracefully shutting down
+2025/08/28 15:48:36 [notice] 22#22: gracefully shutting down
+2025/08/28 15:48:36 [notice] 23#23: gracefully shutting down
+2025/08/28 15:48:36 [notice] 22#22: exiting
+2025/08/28 15:48:36 [notice] 23#23: exiting
+2025/08/28 15:48:36 [notice] 21#21: gracefully shutting down
+2025/08/28 15:48:36 [notice] 22#22: exit
+2025/08/28 15:48:36 [notice] 21#21: exiting
+2025/08/28 15:48:36 [notice] 23#23: exit
+2025/08/28 15:48:36 [notice] 21#21: exit
+2025/08/28 15:48:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/28 15:48:36 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 15:48:36 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 15:48:36 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:48:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 15:48:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 15:48:36 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 15:48:36 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 15:52:45 [notice] 1#1: using the "epoll" event method
+2025/08/28 15:52:45 [notice] 1#1: nginx/1.27.5
+2025/08/28 15:52:45 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 15:52:45 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 15:52:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 15:52:45 [notice] 1#1: start worker processes
+2025/08/28 15:52:45 [notice] 1#1: start worker process 20
+2025/08/28 15:52:45 [notice] 1#1: start worker process 21
+2025/08/28 15:52:45 [notice] 1#1: start worker process 22
+2025/08/28 15:52:45 [notice] 1#1: start worker process 23
+2025/08/28 16:00:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 16:00:57 [notice] 20#20: gracefully shutting down
+2025/08/28 16:00:57 [notice] 22#22: gracefully shutting down
+2025/08/28 16:00:57 [notice] 20#20: exiting
+2025/08/28 16:00:57 [notice] 22#22: exiting
+2025/08/28 16:00:57 [notice] 22#22: exit
+2025/08/28 16:00:57 [notice] 20#20: exit
+2025/08/28 16:00:57 [notice] 21#21: gracefully shutting down
+2025/08/28 16:00:57 [notice] 21#21: exiting
+2025/08/28 16:00:57 [notice] 21#21: exit
+2025/08/28 16:00:57 [notice] 23#23: gracefully shutting down
+2025/08/28 16:00:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 16:00:57 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 16:00:57 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:00:57 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/08/28 16:00:57 [notice] 1#1: worker process 20 exited with code 0
+2025/08/28 16:00:57 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:00:57 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/28 16:00:57 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 16:00:57 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:02:02 [notice] 1#1: using the "epoll" event method
+2025/08/28 16:02:02 [notice] 1#1: nginx/1.27.5
+2025/08/28 16:02:02 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 16:02:02 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 16:02:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 16:02:02 [notice] 1#1: start worker processes
+2025/08/28 16:02:02 [notice] 1#1: start worker process 20
+2025/08/28 16:02:02 [notice] 1#1: start worker process 21
+2025/08/28 16:02:02 [notice] 1#1: start worker process 22
+2025/08/28 16:02:02 [notice] 1#1: start worker process 23
+2025/08/28 16:03:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 16:03:32 [notice] 21#21: gracefully shutting down
+2025/08/28 16:03:32 [notice] 20#20: gracefully shutting down
+2025/08/28 16:03:32 [notice] 21#21: exiting
+2025/08/28 16:03:32 [notice] 23#23: gracefully shutting down
+2025/08/28 16:03:32 [notice] 23#23: exiting
+2025/08/28 16:03:32 [notice] 21#21: exit
+2025/08/28 16:03:32 [notice] 23#23: exit
+2025/08/28 16:03:32 [notice] 22#22: gracefully shutting down
+2025/08/28 16:03:32 [notice] 22#22: exiting
+2025/08/28 16:03:32 [notice] 22#22: exit
+2025/08/28 16:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/28 16:03:32 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 16:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/28 16:03:32 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 16:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 16:03:32 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 16:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 16:03:51 [notice] 1#1: using the "epoll" event method
+2025/08/28 16:03:51 [notice] 1#1: nginx/1.27.5
+2025/08/28 16:03:51 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 16:03:51 [notice] 1#1: OS: Linux 6.8.0-79-generic
+2025/08/28 16:03:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 16:03:51 [notice] 1#1: start worker processes
+2025/08/28 16:03:51 [notice] 1#1: start worker process 20
+2025/08/28 16:03:51 [notice] 1#1: start worker process 21
+2025/08/28 16:03:51 [notice] 1#1: start worker process 22
+2025/08/28 16:03:51 [notice] 1#1: start worker process 23

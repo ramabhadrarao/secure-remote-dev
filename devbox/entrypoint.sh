@@ -40,3 +40,5 @@ fi
 
 # Execute the main command
 exec "$@"
+# Clean Chrome locks on container start
+su - $DEVBOX_RDP_USER -c "rm -rf ~/.config/google-chrome/Singleton* 2>/dev/null"
